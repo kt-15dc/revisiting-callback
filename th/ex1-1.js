@@ -1,3 +1,4 @@
+
 /* 
 - เราอยากพัฒนาโปรแกรมบวกลบคูณหารเลข ทุกครั้งจะรับ Parameter 3 ตัวคือ
     - เลขตัวที่ 1
@@ -7,6 +8,27 @@
 */
 
 // Start Coding Here
+
+function calculate(a,b,callback){
+    return callback(a,b);
+}
+
+function add(a,b){
+    return a+b;
+}
+
+function subtract(a,b){
+    return a-b;
+}
+
+function multiply(a,b){
+    return a*b;
+}
+
+function divide(a,b){
+    return b===0 ? "Cannot divide by zero": a/b;
+
+}
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
